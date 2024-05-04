@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container > div {
+    /* border: 2px solid red; */
+}
+.container {
+    border: 1px solid blue;
+    display: grid;
+    grid-template-rows: 100vh;
+    grid-template-columns: 20% 80%;
+}
+.dash{
+    /* border: 2px solid green; */
+}
+.dash2{
+    border: 2px solid black;
+}
+.first{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 200px 100px;
+    background-color: aqua;
+    color: white;
+}
+.second{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.dash1-1{
+    margin: 15px 0;
+}
+.dash2-1-1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 15px 30px;
+}
+.dash2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dash2-1-1 > div {
+    border: 2px solid olivedrab;
+}
+.search-input1 > input{
+    width: 95%;
+    border-radius: 10px;
+    background-color: rgb(178, 187, 183);
+    border: none;
+}
+.search-input1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.search-input2{
+   display: flex;
+   gap: 25px;
+   justify-content: center;
+   align-items: center;
+}
+.dash2-container{
+    display: grid;
+    grid-template-columns: 30px 300px;
+    gap: 20px;
+}
+.dash2-1-2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 15px 30px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.btns > button {
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgb(84, 145, 245);
+    color: white;
+    border: none;
+}
+
+.yourProjects{
+    padding: 15px 30px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.yourProjects-section{
+    background-color: azure;
+}
+
+.three-cols > .cols,
+.three-cols > .cols-3 {
+    /* border: 2px solid green; */
+}
+
+.three-cols{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    gap: 20px;
+    padding-right: 55px;
+    padding-left: 30px;
+}
+.cols{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.supercool{
+    border: 2px solid rgb(116, 112, 112);
+    border-left: 4px solid blue;
+    margin: 10px;
+    padding: 20px;
+    font-size: smaller;
+    border-radius: 5px;
+}
+
+.iconspan{
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+    gap: 20px;
+}
+
+.dash{
+    font-size: smaller;
+}
